@@ -8,7 +8,7 @@ const Time = (props) => {
 
   return (
     <div className="audio-player-time">
-      {`${currentAudioTime}/${duration}`}
+      {`$${duration}`}
     </div>
   )
 }
